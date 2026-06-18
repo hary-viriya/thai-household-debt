@@ -112,7 +112,7 @@ def load_data():
 df_long, df_purpose_long, df_debt_raw, df_income_raw = load_data()
 
 # ── Header ────────────────────────────────────────────────────────────────────
-st.title("📊 วิเคราะห์หนี้สินครัวเรือนไทย")
+st.title("วิเคราะห์หนี้สินครัวเรือนไทย")
 st.caption("ข้อมูลจากการสำรวจภาวะเศรษฐกิจและสังคมครัวเรือน (NSO) ปี 2547–2566")
 
 if df_long is None:
